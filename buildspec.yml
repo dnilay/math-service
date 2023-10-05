@@ -30,14 +30,14 @@ phases:
       - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - echo Writing image definitions file...
-      - printf '[{"name":"mathservice-container","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
-      - cat imagedefinitions.json
+      - printf '[{"name":"mathservice-container","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imageDetail.json
+      - cat imageDetail.json
 
 
 artifacts:
   files:
     - '**/*'
-    - imagedefinitions.json
+    - imageDetail.json
   base-directory: './build/libs'
 reports:
       test-report-group: #Junit reports
