@@ -1,0 +1,6 @@
+[
+  {
+    "name": "mathservice-container",
+    "imageUri": "990627459750.dkr.ecr.us-east-1.amazonaws.com/mathservice:latest"
+  }
+]
