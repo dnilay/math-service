@@ -25,5 +25,5 @@
   ],
   "networkMode":null,
   "cpu":"256",
-  "memory":"256"
+  "memory":"512"
 }
