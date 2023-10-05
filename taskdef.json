@@ -8,20 +8,20 @@
       "essential": true,
       "portMappings": [
         {
-          "hostPort": 0,
+          "hostPort": 80,
           "protocol": "tcp",
-          "containerPort": 8080
+          "containerPort": 80
         }
       ]
     }
   ],
   "family": "NewMathServiceTask",
   "compatibilities": [
-    "EXTERNAL",
-    "EC2"
+
+    "FARGATE"
   ],
   "requiresCompatibilities":[
-    "EC2"
+    "FARGATE"
   ],
   "networkMode":null,
   "cpu":"256",
