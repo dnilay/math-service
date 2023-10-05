@@ -24,6 +24,7 @@
     "FARGATE"
   ],
   "networkMode":"awsvpc",
+  "ExecutionRoleArn": "arn:aws:iam::990627459750:role/ecsTaskExecutionRole",
   "cpu":"256",
   "memory":"512"
 }
