@@ -6,5 +6,5 @@ Resources:
         #TaskDefinition: "arn:aws:ecs:ap-southeast-1:99999999999999:task-definition/NewMathServiceTask:2"
         TaskDefinition: <TASK_DEFINITION>
         LoadBalancerInfo:
-          ContainerName: "MathServiceContainer"
+          ContainerName: "mathservice-containe"
           ContainerPort: 8080
