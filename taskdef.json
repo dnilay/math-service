@@ -9,7 +9,7 @@
         "-c"
       ],
       "essential": true,
-      "image": "<IMAGE1_NAME>",
+      "image": "990627459750.dkr.ecr.us-east-1.amazonaws.com/mathservice:latest",
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
